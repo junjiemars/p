@@ -99,3 +99,15 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# .vscode
+.vscode/
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/test.sh
+
+# virtualenv
+bin/
+include/
+pip-selfcheck.json
